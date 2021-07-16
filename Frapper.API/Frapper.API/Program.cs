@@ -14,6 +14,10 @@ namespace Frapper.API
     {
         public static void Main(string[] args)
         {
+            //documentation-https://tutexchange.com/learn-asp-net-core-web-api-from-project/
+            //postman collection-https://camo.githubusercontent.com/16a903fe0c8e857e22585b47d674a11dc7fd16a2d4ef6a2d0e932e70a62cb0d6/68747470733a2f2f72756e2e7073746d6e2e696f2f627574746f6e2e737667
+            //db script- https://github.com/saineshwar/Frapper.API/blob/main/Database_Script/FrapperAPIDBscript.sql
+
             var logger = NLog.Web.NLogBuilder.ConfigureNLog("nlog.config").GetCurrentClassLogger();
 
             try
